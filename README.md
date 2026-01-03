@@ -8,82 +8,60 @@ This project demonstrates an end-to-end data analytics workflow, starting from d
 
 Dataset
 
-The dataset contains structured data relevant to business analysis.
-
-Includes both numerical and categorical variables.
-
-Used for exploratory analysis, data cleaning, SQL querying, and visualization.
-
-(Dataset source can be mentioned here if applicable)
+  The dataset contains structured data relevant to business analysis.
+  Includes both numerical and categorical variables.
+  Used for exploratory analysis, data cleaning, SQL querying, and visualization.
+  (Dataset source can be mentioned here if applicable)
 
 Tools & Technologies
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-
-SQL (PostgreSQL / MySQL / SQL Server)
-
-Power BI
-
-Jupyter Notebook
-
-Excel (optional, for validation/reporting)
+  Python (Pandas, NumPy, Matplotlib, Seaborn)
+  SQL (PostgreSQL / MySQL / SQL Server)
+  Power BI
+  Jupyter Notebook
+  Excel (optional, for validation/reporting)
 
 Project Workflow / Steps
 
-Data Loading
+1. Data Loading
 
-Imported dataset using Python (Pandas).
+  Imported dataset using Python (Pandas).
 
-Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
-Analyzed data structure, distributions, and patterns.
+  Analyzed data structure, distributions, and patterns.
+  Identified missing values, outliers, and inconsistencies.
+  Data Cleaning & Preprocessing
+  Handled missing values and duplicates.
+  Standardized column formats and data types.
+  Prepared data for SQL and visualization.
 
-Identified missing values, outliers, and inconsistencies.
+3. SQL Analysis
 
-Data Cleaning & Preprocessing
+  Loaded cleaned data into SQL database.
+  Performed queries using joins, filters, aggregations, and subqueries.
+  Answered key business questions using SQL.
 
-Handled missing values and duplicates.
+4. Power BI Dashboard
 
-Standardized column formats and data types.
+  Connected Power BI to the SQL database.
+  Built interactive dashboards with KPIs, charts, and filters.
 
-Prepared data for SQL and visualization.
+5. Reporting
 
-SQL Analysis
+  Summarized insights and findings in a structured report.
+  Highlighted trends, patterns, and actionable insights.
 
-Loaded cleaned data into SQL database.
+6. Dashboard
 
-Performed queries using joins, filters, aggregations, and subqueries.
-
-Answered key business questions using SQL.
-
-Power BI Dashboard
-
-Connected Power BI to the SQL database.
-
-Built interactive dashboards with KPIs, charts, and filters.
-
-Reporting
-
-Summarized insights and findings in a structured report.
-
-Highlighted trends, patterns, and actionable insights.
-
-Dashboard
-
-Interactive Power BI dashboard showcasing:
-
-Key performance indicators (KPIs)
-
-Trend analysis
-
-Category-wise and time-based insights
-
+  Interactive Power BI dashboard showcasing:
+    Key performance indicators (KPIs)
+    Trend analysis
+    Category-wise and time-based insights
 Designed for quick decision-making and stakeholder use.
 
-Results & Insights
+7. Results & Insights
 
-Identified key trends and patterns in the data.
-
-Provided data-driven insights to support business decisions.
-
-Improved data quality through systematic cleaning and validation.
+  Identified key trends and patterns in the data.
+  Provided data-driven insights to support business decisions.
+  Improved data quality through systematic cleaning and validation.
